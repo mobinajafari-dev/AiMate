@@ -12,6 +12,6 @@ AiMate is a modern, cross-platform Progressive Web Application (PWA) that serves
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React.js, Tailwind CSS (Mobile-first UI), Web Speech API.
+- **Frontend:** React.js, Bootstrap CSS (Mobile-first UI), Web Speech API , Zustand.
 - **Backend:** PHP, cURL/Guzzle (for external APIs).
 - **Database & Cache:** MySQL, Redis (for session management & rate limiting).
