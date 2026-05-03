@@ -6,10 +6,12 @@
 
 ## ✨ Key Features
 
-- 💬 **Unified Chat Interface**: Integrates with cutting-edge AI APIs (OpenAI / Deepseek) for a smart conversational experience.
+- 💬 **Unified Chat Interface**: Integrates with cutting-edge AI APIs (OpenAI / Deepseek / Gapgpt) for a smart conversational experience.
 - 📱 **PWA Ready**: Installable on mobile devices, offering a native app-like, mobile-first user interface.
 - 🎙️ **Voice Assistant**: Built-in Speech-to-Text (STT) and Text-to-Speech (TTS) capabilities for hands-free interactions.
 - ✈️ **Telegram Bot Sync**: Chat with your AI assistant on the go via Telegram, perfectly synced with the unified backend.
+- 🔔 **Push Notifications**: Real-time updates and alerts powered by Firebase Cloud Messaging (FCM).
+- 🔐 **Seamless Authentication**: Quick and secure login using Google (Gmail) and Telegram accounts.
 - 🔒 **Secure Backend**: robust server-side logic handling API key management, rate limiting, and secure communication.
 
 ## 🛠️ Tech Stack
@@ -20,10 +22,12 @@
 - **Zustand**: Lightweight state management.
 - **Bootstrap CSS**: Mobile-first, responsive design.
 - **Web Speech API**: Native browser STT/TTS implementation.
+- **Firebase**: Push notification (FCM) integration.
 
 **Backend & Infrastructure**
 
 - **PHP**: Core backend logic and API endpoints.
+- **OAuth 2.0 & Telegram Auth**: Secure user authentication handling.
 - **cURL / Guzzle**: Handling external API requests.
 - **MySQL**: Persistent data storage.
 - **Redis**: Session management and rate-limiting.
@@ -42,20 +46,9 @@ Please refer to the following guides to get started:
 ## 🚀 Quick Start
 
 1. **Clone the repository:**
-   ```bash
+
+```bash
    git clone https://github.com/mobinajafari-dev/AiMate.git
    cd AiMate
-   ```
-2. Check the `docs/` folder to set up the respective environments (Frontend and Backend).
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/mobinajafari-dev/AiMate/issues).
-
-## 📝 License
-
-This project is licensed under the MIT License.
-
-```
 
 ```
