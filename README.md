@@ -52,3 +52,9 @@ Please refer to the following guides to get started:
    cd AiMate
 
 ```
+
+2. **Check the docs/ folder to set up the respective environments (Frontend and Backend).**
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
